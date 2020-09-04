@@ -457,6 +457,11 @@ p{
     filter: grayscale(0);
     transition: .3 ease filter;
 }
+
+#footer p{
+    color: white;
+    font-size-adjust: 1.3rem;
+}
 /*end of footer*/
 /*keyframes*/
 @keyframes text_reveal_box{
@@ -484,3 +489,65 @@ p{
     }
 }
 /*end of keyframe*/
+
+
+/*media queries*/
+@media only screen and (min-width:768px){
+  .cta{
+    font-size: 2.5rem;
+    padding: 20px 60px;
+  }  
+  h1.section-title{
+    font-size: 5rem;
+  }
+
+  /*hero section*/
+  #hero h1{
+      font-size: 5rem;
+  }
+  /*end of hero */
+
+  /*service section*/
+  #services .service-bottom .service_item{
+      flex-basis: 45%;
+      margin: 2.5%;
+
+  }
+  /*end of service*/
+
+  /*project */
+  #projects .project-item{
+      flex-direction: row;
+  }
+
+  #projects .project-item:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+ 
+  #projects .project-item{
+      height: 400px;
+      margin: 0;
+      width: 100%;
+      border-radius: 0;
+  }
+  #projects .all-projects .project-info{
+        height: 100%;
+  }
+  #projects .all-projects .project-img{
+    height: 100%;
+}
+  /*end of project*/
+
+  /*about*/
+  #about .about{
+      flex-direction: row;
+  }
+  #about .col-left{
+      padding: 60px;
+      height: 400px;
+      width: 600px;
+  }
+  /*end about*/
+}
+/*end of media queries*/
