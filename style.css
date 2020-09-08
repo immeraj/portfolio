@@ -5,7 +5,7 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 html {
@@ -16,6 +16,9 @@ html {
 
 a{
     text-decoration: none;
+}
+.a_project{
+    color: white;
 }
 
 .container{
@@ -322,7 +325,7 @@ p{
     flex-direction: column;
     padding: 40px;
     border-radius: 10px;
-    background-image: url(./img/img-1.png);
+    background-image: url(./img/front-view-2012-small2.jpg);
     background-repeat: cover;
     margin: 20px 5%;
     position: relative;
@@ -361,6 +364,8 @@ p{
     text-align: left;
    
 }
+
+
 /*end of service section*/
 
 
@@ -437,7 +442,7 @@ p{
     width: 100%;
     height: 100%;
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-    opacity: .8;
+    opacity: .4;
 }
 
 #projects .project-item:hover .project-img img{
